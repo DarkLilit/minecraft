@@ -1,0 +1,20 @@
+body{
+    font: normal 13px/18px Helvetica, Arial, sans-serif;
+}
+
+.header {
+    background: #37a14c;
+    width: 1920;
+    height: 45px;
+    padding: 0 100px;
+    color: white;
+}
+.info{
+    float: left;
+   padding: 14px;
+}
+.logo{
+    float: right;
+    padding: 8px;
+
+}
