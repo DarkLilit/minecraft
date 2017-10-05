@@ -1,18 +1,4 @@
-body{
-    font: normal 13px/16px Helvetica, Arial, sans-serif;
-    font-size: 16px;
-}
-
-.мир {
-    margin: 0 60px;
-}
-li{
-    list-style-type: none;
-    text-decoration-line:none;
-    padding: 5px;
-    color: red;
-}
-.row:after{
+.row:after {
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -20,59 +6,227 @@ li{
     clear: both;
     height: 0;
 }
-.row{ display: inline-block; }
-* html .row { height: 1%; }
-.row { display: block; }
-.resize{
-    width: 1280px;
-    margin: 0 auto;
+
+.row {
+    display: inline-block;
 }
 
-.header{
+* html .row {
+    height: 1%;
+}
+
+.row {
+    display: block;
+}
+
+body {
+    font: normal 13px/16px Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.resize {
+    margin: 0 120px;
+    width: 1250px;
+}
+
+.messenger {
     background: #37a14c;
     min-height: 45px;
-    margin-bottom:116px;
+    padding: 0 30px;
+
 }
-.button{
-    background: #37a14c;
+
+.england,
+.facebook,
+.vk {
+    margin: 8px 10px 10px 0;
+    float: right;
+}
+
+.minecraft {
+    min-height: 100px;
+}
+
+.logo {
+    margin: 10px 38px 0 150px;
+}
+
+.fone {
+    height: 115px;
+    width: 290px;
+}
+
+.fone1,
+.fone2 {
+    color: #37A14C
+}
+
+p.skype a:before {
+    background: url(../images/skype.jpg) no-repeat center;
+    display: inline-block;
+    margin-right: 8px;
+    height: 19px;
+    width: 22px;
+    content: "";
+
+}
+
+p.skype a {
+    font-style: italic;
+}
+
+.skype {
+    float: left;
+
+}
+
+.fone1 {
+    height: 70px;
+    float: left;
+    width: 90px;
+}
+
+.fone2 {
+    width: 190px;
+    height: 70px;
+    float: right;
+}
+
+.box {
+    margin: -5px 0 0;
+    height: 115px;
+    width: auto;
+}
+
+.big_logo {
+    margin: 26px 0 0 18px;
+}
+
+.logo,
+.fone,
+.box,
+.big_logo {
+    float: left;
+}
+
+.button {
+    background: linear-gradient(to top, #309444, #45bc5c);
+    min-height: 45px;
+
+}
+
+button {
+    box-shadow: rgba(0, 0, 0, 0.19) 0 5px 10px, rgba(0, 0, 0, 0.23) 0 6px 6px;
+    background: rgb(240, 176, 6);
+    text-decoration: none;
+    border-radius: 5px;
+    user-select: none;
+    width: 136px;
+    outline: none;
+    height: 37px;
+    border: 5px;
+    color: #fff;
+
+}
+
+button:hover {
+    background: rgb(254, 197, 13);
+}
+
+button:active {
+    background: rgb(228, 164, 6);
+}
+
+button:hover {
+    background: rgb(254, 197, 13);
+}
+
+button:active {
+    background: rgb(228, 164, 6);
+}
+
+.navigation li {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-right: 1px;
+    list-style: none;
+    font-size: 14px;
+    float: left;
+
+}
+
+.navigation li a {
+    background: linear-gradient(to top, #309444, #45bc5c);
+    vertical-align: middle;
+    text-decoration: none;
+    display: table-cell;
+    text-align: center;
+    position: relative;
+    list-style: none;
+    color: #3f3f3f;
+    margin: auto;
+    width: 192px;
     height: 45px;
-    margin-bottom: 10px;
+
 }
-.content{
+
+.navigation li a:hover {
+    background: rgb(254, 197, 13);
+    color: #fff;
+}
+
+.navigation li a:active {
+    background: rgb(228, 164, 6);
+}
+
+.content {
     min-height: 500px;
-    width: 733px;
-    float: left;
-
-}
-.sidebar{
-    width: 334px;
-    float: left;
-    min-height: 600px;
-
-}
-.block{
     width: 735px;
-    margin-bottom: 10px;
-    float: left;
-
+    float: right;
 }
+
+.container {
+    width: 1008px
+}
+
+.sidebar {
+    min-height: 600px;
+    margin: 0 30px;
+    width: 202px;
+    float: right;
+}
+
+.block {
+    margin-bottom: 10px;
+    width: 735px;
+    float: right;
+}
+
 .window_1,
 .window_2,
-.window_3{
-    background: #37a14c;
+.window_3 {
+    margin: 0 6px 20px;
     min-height: 265px;
+    height: 260px;
     width: 232px;
-    height: 265px;
-    margin: 6px;
     float: left;
 }
+
+.block1,
+.block2,
+.block3 {
+    background: linear-gradient(to top, #45bc5c, #309444);
+    width: 232px;
+    height: 91px;
+}
+
 .footer {
-    background: darkorange;
+    background: linear-gradient(to top, #f0b006, #fec50d);
     height: 96px;
 
 }
+
 .footer1 {
-    background: #37a14c;
+    background: linear-gradient(to top, #3d9b50, #45bb5c);
     height: 96px;
-
 }
+
