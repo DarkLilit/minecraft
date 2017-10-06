@@ -19,15 +19,20 @@
     display: block;
 }
 
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font: normal 13px/16px Helvetica, Arial, sans-serif;
+    min-width: 1200px;
     font-size: 16px;
-
 }
 
 .resize {
     margin: 0 auto;
-    width: 1030px;
+    width: 1015px;
 }
 
 .messenger {
@@ -50,7 +55,7 @@ body {
 }
 
 .minecraft {
-    min-height: 100px;
+    min-height: 99px;
 }
 
 .logo {
@@ -112,7 +117,7 @@ p.skype a {
 }
 
 .button {
-    background: linear-gradient(to top, #309444, #45bc5c);
+    background: linear-gradient(to top, #2f8c43, #45bc5c);
     min-height: 45px;
 
 }
@@ -156,7 +161,7 @@ button:active {
 }
 
 .navigation li a {
-    background: linear-gradient(to top, #309444, #45bc5c);
+    background: linear-gradient(to top, #2f8c43, #45bc5c);
     vertical-align: middle;
     text-decoration: none;
     display: table-cell;
@@ -197,6 +202,15 @@ button:active {
     float: right;
 }
 
+li a {
+    text-decoration: none;
+    color: red;
+}
+
+li a:hover {
+    color: black;
+}
+
 .sidebar1 li {
     list-style-type: none;
     padding: 4px;
@@ -214,7 +228,7 @@ button:active {
 }
 
 .Новости {
-    padding: 5px;
+    padding: 10px 5px;
 }
 
 .block {
@@ -236,7 +250,7 @@ button:active {
 .block1,
 .block2,
 .block3 {
-    background: linear-gradient(to top, #45bc5c, #309444);
+    background: linear-gradient(to top, #45bc5c, #2f8c43);
     padding: 10px 5px;
     width: 222px;
     height: 91px;
@@ -257,8 +271,9 @@ button:active {
 }
 
 .footer1 {
-    background: linear-gradient(to top, #3d9b50, #45bb5c);
+    background: linear-gradient(to top, #2f8c43, #45bb5c);
     padding: 12px 10px;
+
 }
 
 .footer .resize .fone {
@@ -267,6 +282,7 @@ button:active {
 }
 
 .footer1 a {
-    padding: 20px;
+    padding: 0 20px;
     clear: both;
+
 }
