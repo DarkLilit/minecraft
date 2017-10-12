@@ -50,7 +50,14 @@ ul.vfe{
     color: #3a8945;
     padding: 10px 0;
 }
-
+.header .fone2>a{
+    color: #3a8945;
+    text-decoration: none;
+}
+.footer .fone2>a{
+    color: black;
+    text-decoration: none;
+}
 p.skype a:before {
     background: url(../images/skype.jpg) no-repeat center;
     display: inline-block;
